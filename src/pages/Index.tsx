@@ -1,16 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/dashboard/HeroSection";
+import ScheduleGrid from "@/components/dashboard/ScheduleGrid";
+import BrandingTips from "@/components/dashboard/BrandingTips";
+import CategoryLegend from "@/components/dashboard/CategoryLegend";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background">
+      <div className="container max-w-7xl mx-auto px-4 py-8 space-y-10">
+        <HeroSection />
+        <CategoryLegend />
+        <ScheduleGrid />
+        <BrandingTips />
+        <footer className="text-center text-xs text-muted-foreground pb-8 pt-4">
+          Hecho con 💜 para una comunicadora que no para · {new Date().getFullYear()}
+        </footer>
+      </div>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
