@@ -61,7 +61,7 @@ const HeroSection = () => {
           <Button
             size="lg"
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 font-semibold text-base px-8 py-6 rounded-xl shadow-lg"
-            onClick={() => window.open("https://sheets.google.com", "_blank")}
+            onClick={() => window.open("https://docs.google.com/spreadsheets/d/1Cg3n30fTlccRlUjOdkKxtelNnLwlvqaAre5ta-9o-hQ/edit?usp=sharing", "_blank")}
           >
             <TableProperties className="mr-2" size={20} />
             Abrir Job Tracker (Google Sheets)
