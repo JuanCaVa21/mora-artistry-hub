@@ -1,0 +1,41 @@
+export type CategoryKey = "dogs" | "morning" | "work" | "lunch" | "mora" | "home" | "tracker";
+
+export interface ScheduleBlock {
+  time: string;
+  title: string;
+  emoji: string;
+  category: CategoryKey;
+  tip: string;
+  duration?: string;
+}
+
+export const categoryStyles: Record<CategoryKey, string> = {
+  dogs: "category-dogs",
+  morning: "category-morning",
+  work: "category-work",
+  lunch: "category-lunch",
+  mora: "category-mora",
+  home: "category-home",
+  tracker: "category-tracker",
+};
+
+export const schedule: ScheduleBlock[] = [
+  { time: "6:00 AM", title: "Paseo de Perros", emoji: "🐕", category: "dogs", tip: "Primer paseo del día. ¡Energía matutina!", duration: "30 min" },
+  { time: "6:30 AM", title: "Rutina y Despertar", emoji: "🌅", category: "morning", tip: "Café, skincare, planificar el día", duration: "30 min" },
+  { time: "7:00 AM", title: "Deep Work: Portafolio", emoji: "💼", category: "work", tip: "Recordatorio: Adaptar el copy y revisar keywords", duration: "2 hrs" },
+  { time: "9:00 AM", title: "Aplicaciones Laborales", emoji: "💼", category: "work", tip: "Buscar ofertas, personalizar CV para cada aplicación", duration: "2 hrs" },
+  { time: "11:00 AM", title: "Networking & LinkedIn", emoji: "💼", category: "work", tip: "Conectar con recruiters, comentar posts relevantes", duration: "1 hr" },
+  { time: "12:00 PM", title: "Paseo de Perros", emoji: "🐕", category: "dogs", tip: "Segundo paseo. Aprovecha para despejar la mente", duration: "30 min" },
+  { time: "12:30 PM", title: "Almuerzo y Descanso", emoji: "🥗", category: "lunch", tip: "Comer bien, hidratar, scroll consciente", duration: "1 hr" },
+  { time: "1:30 PM", title: "Mora Taller: Estrategia", emoji: "🎨", category: "mora", tip: "Planificación de contenido semanal para redes", duration: "1.5 hrs" },
+  { time: "3:00 PM", title: "Mora Taller: Creación", emoji: "🎨", category: "mora", tip: "Diseñar piezas, grabar reels, escribir copies", duration: "2 hrs" },
+  { time: "5:00 PM", title: "Tareas del Hogar", emoji: "🧹", category: "home", tip: "Limpiar, organizar, pendientes personales", duration: "1 hr" },
+  { time: "6:00 PM", title: "Paseo de Perros", emoji: "🐕", category: "dogs", tip: "Tercer paseo. ¡Los peludos lo merecen!", duration: "30 min" },
+  { time: "6:30 PM", title: "Descanso Personal", emoji: "🧹", category: "home", tip: "Tiempo libre: series, lectura, hobbies", duration: "2 hrs" },
+  { time: "8:30 PM", title: "Actualización Tracker", emoji: "📊", category: "tracker", tip: "Registrar postulaciones del día en el tracker", duration: "15 min" },
+  { time: "8:45 PM", title: "Preparar día siguiente", emoji: "📊", category: "tracker", tip: "Revisar ofertas guardadas para mañana", duration: "15 min" },
+  { time: "9:00 PM", title: "Wind Down", emoji: "🧹", category: "home", tip: "Desconectar pantallas, rutina nocturna", duration: "2 hrs" },
+  { time: "11:00 PM", title: "Paseo de Perros", emoji: "🐕", category: "dogs", tip: "Último paseo. Buenas noches 🌙", duration: "30 min" },
+];
+
+export const days = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"];
