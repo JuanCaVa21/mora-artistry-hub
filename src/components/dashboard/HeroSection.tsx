@@ -41,7 +41,7 @@ const HeroSection = () => {
         >
           <div className="flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm rounded-full px-4 py-2">
             <Target size={16} />
-            <span>20 postulaciones / semana</span>
+            <span>20 postulaciones (Espontaneas y Publicadas) / semana </span>
           </div>
           <div className="flex items-center gap-2 bg-primary-foreground/15 backdrop-blur-sm rounded-full px-4 py-2">
             <Sparkles size={16} />

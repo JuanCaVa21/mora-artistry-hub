@@ -10,8 +10,8 @@ const tips = [
   },
   {
     icon: Palette,
-    title: "Portafolio Visual",
-    text: "Muestra proceso, no solo resultado. Los recruiters quieren ver cómo piensas.",
+    title: "Postulaciones Espontaneas",
+    text: "Cerca del 70% de las oportunidades no se publican. Conecta con CEOs y reclutadores.",
     color: "bg-coral-light text-secondary",
   },
   {
