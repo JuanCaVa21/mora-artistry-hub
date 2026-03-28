@@ -26,6 +26,12 @@ const tips = [
     text: "En entrevistas, usa el método STAR: Situación, Tarea, Acción, Resultado.",
     color: "bg-amber-light text-amber",
   },
+  {
+    icon: Lightbulb,
+    title: "Networking Estratégico",
+    text: "Conecta con personas en roles similares a los que apuntas. Comenta en sus posts, comparte recursos, ofrece ayuda.",
+    color: "bg-amber-light text-amber",
+  }
 ];
 
 const BrandingTips = () => {

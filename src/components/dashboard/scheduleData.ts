@@ -25,8 +25,6 @@ export const schedule: ScheduleBlock[] = [
   { time: "9:00 AM", title: "Rutina y Despertar", emoji: "🌅", category: "morning", tip: "Agua, skincare, planificar el día", duration: "30 min" },
   { time: "9:30 AM", title: "Aplicaciones 3 Publicadas + 1 Espontanea", emoji: "💼", category: "work", tip: "Enfocarse en calidad, no cantidad. Personalizar cada aplicación", duration: "1.5 hrs" },
   { time: "11:00 AM", title: "Tracker de Postulaciones", emoji: "💼", category: "work", tip: "Cuida el orden", duration: "15 min" },
-  { time: "9:00 AM", title: "Aplicaciones Laborales", emoji: "💼", category: "work", tip: "Buscar ofertas, personalizar CV para cada aplicación", duration: "2 hrs" },
-  { time: "11:00 AM", title: "Networking & LinkedIn", emoji: "💼", category: "work", tip: "Conectar con recruiters, comentar posts relevantes", duration: "1 hr" },
   { time: "11:15 AM", title: "Descanso", emoji: "🌅", category: "lunch", tip: "Come algo para recuperar tus fuerzas", duration: "30 min" },
   { time: "11:30 AM", title: "Contenido Creativo", emoji: "🎨", category: "mora", tip: "Planificar y crear contenido para redes sociales", duration: "30 min" },
   { time: "12:00 PM", title: "Paseo de Perros", emoji: "🐕", category: "dogs", tip: "Segundo paseo del día. ¡Energía para ambos!", duration: "30 min" },
